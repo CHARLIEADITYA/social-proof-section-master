@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'League Spartan', sans-serif;
+}
+body{
+    background: no-repeat top/contain url('./../assests/images/bg-pattern-top-desktop.svg');
+}
+
+.b {
+    border: 1px solid red;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.main_component {
+    max-width: 80%;
+
+}
+
+.top_component {
+    display: flex;
+    /* align-items: center;
+    justify-content: center; */
+}
+.left_component{
+    width: 50%;
+}
+.left_component>h1{
+    font-weight: 700;
+    font-size: 40px;
+    max-width: 60%;
+    color: hsl(300, 43%, 22%);
+}
+.left_component>p{
+    max-width: 75%;
+    margin-top: 20px;
+    line-height: 20px;
+    color: hsl(303, 10%, 53%);
+}
+.right_component{
+    width: 50%;
+    
+    
+}
+
+.rating {
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    max-width: 80%;
+    height: 40px;
+    /* margin-left: 20px; */
+    gap: 1.5rem;
+    padding: 0 40px;
+    margin-top: 20px;
+    font-weight: 700;
+    font-size: 14px;
+    border-radius: 5px;
+    background-color: hsl(300, 24%, 96%);
+    color: hsl(300, 43%, 22%);
+    
+    
+}
+.rating_b{
+    margin-left: 50px;
+}
+.rating_c{
+    margin-left: 100px;
+}
+
+.rating>p{
+   
+
+}
+.rating::before {
+    content: url('../assests/images/icon-star.svg') " " url('../assests/images/icon-star.svg') " " url('../assests/images/icon-star.svg') " " url('../assests/images/icon-star.svg') " " url('../assests/images/icon-star.svg');
+    
+}
+
+
+
+
+.bottom_component {
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    gap: 1.5rem;
+    margin-top: 50px;
+    /* padding: 20px; */
+}
+
+.bottom_component .design {
+    /* width: 250px; */
+    /* height: 250px; */
+
+}
+.design{
+    width: 320px;
+    height: 200px;
+    padding: 20px ;  
+    border-radius: 10px;
+    background-color: hsl(300, 43%, 22%);
+    
+}
+.design_content {
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    gap: 1.5rem;
+}
+.design img {
+    border-radius: 50%;
+    height: 40px;
+    height: 40px;
+}
+.design h2{
+    font-weight: 500;
+    font-size: 15px;
+    color: white;
+
+}
+.design h3{
+    font-weight: 400;
+    font-size: 15px;
+    color: hsl(333, 80%, 67%);
+
+}
+.design p{
+    font-size: 13px;
+    width: 80%;
+    color: white;
+    line-height: 20px;
+    margin-top: 20px;
+}
+.two{
+ margin-top: 15px;
+}
+.three{
+    margin-top: 30px;
+}
+
+
